@@ -1,6 +1,12 @@
 name: Execute PowerShell Script
 
-on: []
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   execute_powershell:
