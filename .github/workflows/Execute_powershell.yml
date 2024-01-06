@@ -22,9 +22,9 @@ jobs:
         # Set execution policy to allow running scripts
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
         $scriptDir = $PSScriptRoot
-        write-host $scriptDir
-        $test_val = $env:GITHUB_TEST
-        write-host $test_val
+        #write-host $scriptDir
+        $test_val = ${{ vars.TEST }}
+        write-host "var Values is  : $test_val"
         # Path to your PowerShell script in the repository
         $scriptPath = ".\hello.ps1"
     
