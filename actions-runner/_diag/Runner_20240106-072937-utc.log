@@ -155,3 +155,75 @@
 [2024-01-06 07:35:55Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 19.
 [2024-01-06 07:35:55Z INFO JobNotification] Entering JobCompleted Notification
 [2024-01-06 07:35:55Z INFO JobNotification] Entering EndMonitor
+[2024-01-06 07:41:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:41:04Z INFO MessageListener] Message '2' received from session '4e0eb067-d474-4415-ab83-afbb05bda38f'.
+[2024-01-06 07:41:04Z INFO Runner] Received job message of length 24054 from service, with hash '30fa30289e78ea5a5759841d159dd6c6fbe64f232c7cb2e88e3a62132c97ab84'
+[2024-01-06 07:41:04Z INFO JobDispatcher] Job request 21 for plan 615d9e05-3c9e-4065-90ad-e1754b7f8ba4 job dfe0d027-4c40-526d-c9a9-c098ad733918 received.
+[2024-01-06 07:41:04Z INFO JobDispatcher] Pull OrchestrationId 615d9e05-3c9e-4065-90ad-e1754b7f8ba4.execute_powershell.__default from JWT claims
+[2024-01-06 07:41:04Z INFO JobDispatcher] Job request dfe0d027-4c40-526d-c9a9-c098ad733918 processed succeed.
+[2024-01-06 07:41:04Z INFO Terminal] WRITE LINE: 2024-01-06 07:41:04Z: Running job: execute_powershell
+[2024-01-06 07:41:04Z INFO JobDispatcher] Start renew job request 21 for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:41:05Z INFO JobDispatcher] Successfully renew job request 21, job is valid till 06-01-2024 07:51:06
+[2024-01-06 07:41:05Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper] Starting process:
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   File name: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin\Runner.Worker.exe'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1624 1480'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-01-06 07:41:05Z INFO ProcessInvokerWrapper] Process started with process id 7420, waiting for process exit.
+[2024-01-06 07:41:05Z INFO JobDispatcher] Send job request message to worker for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:41:05Z INFO ProcessChannel] Sending message of length 24054, with hash '30fa30289e78ea5a5759841d159dd6c6fbe64f232c7cb2e88e3a62132c97ab84'
+[2024-01-06 07:41:05Z INFO JobNotification] Entering JobStarted Notification
+[2024-01-06 07:41:05Z INFO JobNotification] Entering StartMonitor
+[2024-01-06 07:41:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:41:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:41:37Z INFO ProcessInvokerWrapper] Finished process 7420 with exit code 102, and elapsed time 00:00:31.8809292.
+[2024-01-06 07:41:37Z INFO JobDispatcher] Worker finished for job dfe0d027-4c40-526d-c9a9-c098ad733918. Code: 102
+[2024-01-06 07:41:37Z INFO JobDispatcher] finish job request for job dfe0d027-4c40-526d-c9a9-c098ad733918 with result: Failed
+[2024-01-06 07:41:37Z INFO Terminal] WRITE LINE: 2024-01-06 07:41:37Z: Job execute_powershell completed with result: Failed
+[2024-01-06 07:41:37Z INFO JobDispatcher] Stop renew job request for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:41:37Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 21.
+[2024-01-06 07:41:37Z INFO JobNotification] Entering JobCompleted Notification
+[2024-01-06 07:41:37Z INFO JobNotification] Entering EndMonitor
+[2024-01-06 07:46:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:46:58Z INFO MessageListener] Message '3' received from session '4e0eb067-d474-4415-ab83-afbb05bda38f'.
+[2024-01-06 07:46:58Z INFO Runner] Received job message of length 23432 from service, with hash 'abb734531779e7967eeac0e6ba1df94111807e8d6d3d7dd98d78152c17f45521'
+[2024-01-06 07:46:58Z INFO JobDispatcher] Job request 25 for plan e07f8668-5687-4a3b-8e0f-f2e8cac77fb8 job dfe0d027-4c40-526d-c9a9-c098ad733918 received.
+[2024-01-06 07:46:58Z INFO JobDispatcher] Pull OrchestrationId e07f8668-5687-4a3b-8e0f-f2e8cac77fb8.execute_powershell.__default from JWT claims
+[2024-01-06 07:46:58Z INFO JobDispatcher] Job request dfe0d027-4c40-526d-c9a9-c098ad733918 processed succeed.
+[2024-01-06 07:46:58Z INFO Terminal] WRITE LINE: 2024-01-06 07:46:58Z: Running job: execute_powershell
+[2024-01-06 07:46:58Z INFO JobDispatcher] Start renew job request 25 for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:46:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 06-01-2024 07:56:59
+[2024-01-06 07:46:59Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper] Starting process:
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   File name: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin\Runner.Worker.exe'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2292 2288'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-01-06 07:46:59Z INFO ProcessInvokerWrapper] Process started with process id 3032, waiting for process exit.
+[2024-01-06 07:46:59Z INFO JobDispatcher] Send job request message to worker for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:46:59Z INFO ProcessChannel] Sending message of length 23432, with hash 'abb734531779e7967eeac0e6ba1df94111807e8d6d3d7dd98d78152c17f45521'
+[2024-01-06 07:46:59Z INFO JobNotification] Entering JobStarted Notification
+[2024-01-06 07:46:59Z INFO JobNotification] Entering StartMonitor
+[2024-01-06 07:47:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:47:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:47:33Z INFO ProcessInvokerWrapper] Finished process 3032 with exit code 102, and elapsed time 00:00:34.6107956.
+[2024-01-06 07:47:33Z INFO JobDispatcher] Worker finished for job dfe0d027-4c40-526d-c9a9-c098ad733918. Code: 102
+[2024-01-06 07:47:33Z INFO JobDispatcher] finish job request for job dfe0d027-4c40-526d-c9a9-c098ad733918 with result: Failed
+[2024-01-06 07:47:33Z INFO Terminal] WRITE LINE: 2024-01-06 07:47:33Z: Job execute_powershell completed with result: Failed
+[2024-01-06 07:47:33Z INFO JobDispatcher] Stop renew job request for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:47:33Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 25.
+[2024-01-06 07:47:33Z INFO JobNotification] Entering JobCompleted Notification
+[2024-01-06 07:47:33Z INFO JobNotification] Entering EndMonitor
