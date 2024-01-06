@@ -1,3 +1,2 @@
 [submodule "actions-runner/work/first-action/first-action"]
     path = actions-runner/work/first-action/first-action
-    url = https://github.com/example/first-action.git
