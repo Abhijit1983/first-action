@@ -10,7 +10,7 @@ on:
 
 jobs:
   execute_powershell:
-    runs-on: windows-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout repository
@@ -22,7 +22,7 @@ jobs:
         # Set execution policy to allow running scripts
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
         $scriptDir = $PSScriptRoot
-
+        $scriptDir
         # Path to your PowerShell script in the repository
         $scriptPath = ".\hello.ps1"
         
