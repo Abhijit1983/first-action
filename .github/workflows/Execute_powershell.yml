@@ -24,9 +24,10 @@ jobs:
         $scriptDir = $PSScriptRoot
         #write-host $scriptDir
         $test_val = "${{ vars.TEST }}"
+        $sec_val = "${{sectrets.TESTSEC}}"
         write-host "var Values is  : $test_val"
         # Path to your PowerShell script in the repository
-        & .\hello.ps1 -test $test_val
+        & .\hello.ps1 -test $test_val -TESTSEC $sec_val
     
         # Execute the PowerShell script
         #& $scriptPath
