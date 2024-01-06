@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Execute PowerShell script
-      shell: pwsh
+      shell: powershell.exe
       run: |
         # Set execution policy to allow running scripts
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
