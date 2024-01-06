@@ -15,9 +15,10 @@ jobs:
       run: |
         # Set execution policy to allow running scripts
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-        
+        $scriptDir = $PSScriptRoot
+
         # Path to your PowerShell script in the repository
-        $scriptPath = ".\hello.ps1"
+        $scriptPath = Join-Path $scriptDir "hello.ps1"
         
         # Execute the PowerShell script
         & $scriptPath
