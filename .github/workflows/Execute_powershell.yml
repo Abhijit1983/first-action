@@ -24,7 +24,7 @@ jobs:
         $scriptDir = $PSScriptRoot
         write-host $scriptDir
         # Path to your PowerShell script in the repository
-        $scriptPath = ".\hello.ps1"
+        $scriptPath = "C:\temp\test\hello.ps1"
     
         # Execute the PowerShell script
         & $scriptPath
