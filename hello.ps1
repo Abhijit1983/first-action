@@ -1,5 +1,5 @@
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-        $scriptDir = $PSScriptRoot
-        write-host $scriptDir
+param(
+$test
 
+)
 "Hello Abhi!!!"

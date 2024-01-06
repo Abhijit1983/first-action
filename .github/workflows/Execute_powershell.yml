@@ -26,7 +26,7 @@ jobs:
         $test_val = "${{ vars.TEST }}"
         write-host "var Values is  : $test_val"
         # Path to your PowerShell script in the repository
-        $scriptPath = ".\hello.ps1"
+        & .\hello.ps1 -test $test_val
     
         # Execute the PowerShell script
-        & $scriptPath
+        #& $scriptPath
