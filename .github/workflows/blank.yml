@@ -1,6 +1,6 @@
 name: Execute PowerShell Script
 
-on: [push, pull_request]
+on: []
 
 jobs:
   execute_powershell:
