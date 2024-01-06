@@ -22,7 +22,7 @@ jobs:
         # Set execution policy to allow running scripts
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
         $scriptDir = $PSScriptRoot
-        $scriptDir
+        write-host $scriptDir
         # Path to your PowerShell script in the repository
         $scriptPath = ".\hello.ps1"
         
