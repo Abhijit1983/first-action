@@ -1,0 +1,23 @@
+name: Execute PowerShell Script
+
+on: [push, pull_request]
+
+jobs:
+  execute_powershell:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Execute PowerShell script
+      shell: pwsh
+      run: |
+        # Set execution policy to allow running scripts
+        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+        
+        # Path to your PowerShell script in the repository
+        $scriptPath = "./hello.ps1"
+        
+        # Execute the PowerShell script
+        & $scriptPath
