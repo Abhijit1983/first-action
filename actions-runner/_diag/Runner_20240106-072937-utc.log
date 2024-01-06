@@ -1,0 +1,157 @@
+[2024-01-06 07:29:37Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'Credentials': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'Runner': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.runner'
+[2024-01-06 07:29:37Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-01-06 07:29:37Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22621.
+[2024-01-06 07:29:37Z INFO Listener] Version: 2.311.0
+[2024-01-06 07:29:37Z INFO Listener] Commit: f5cff308c83746dddd726a9a28a1583872305aaa
+[2024-01-06 07:29:37Z INFO Listener] Culture: en-IN
+[2024-01-06 07:29:37Z INFO Listener] UI Culture: en-US
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO Listener] Validating directory permissions for: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO CommandLineParser] Parse
+[2024-01-06 07:29:37Z INFO CommandLineParser] Parsing 3 args
+[2024-01-06 07:29:37Z INFO CommandLineParser] parsing argument
+[2024-01-06 07:29:37Z INFO CommandLineParser] HasArgs: False
+[2024-01-06 07:29:37Z INFO CommandLineParser] Adding Command: run
+[2024-01-06 07:29:37Z INFO CommandLineParser] parsing argument
+[2024-01-06 07:29:37Z INFO CommandLineParser] HasArgs: True
+[2024-01-06 07:29:37Z INFO CommandLineParser] arg: startuptype
+[2024-01-06 07:29:37Z INFO CommandLineParser] parsing argument
+[2024-01-06 07:29:37Z INFO CommandLineParser] HasArgs: True
+[2024-01-06 07:29:37Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2024-01-06 07:29:37Z INFO Listener] Arguments parsed
+[2024-01-06 07:29:37Z INFO Runner] ExecuteCommand
+[2024-01-06 07:29:37Z INFO ConfigurationStore] currentAssemblyLocation: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin\Runner.Listener.dll
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] binPath: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] RootFolder: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'Runner': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.runner'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] ConfigFilePath: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.runner
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'Credentials': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] CredFilePath: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_migrated'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] MigratedCredFilePath: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_migrated
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'Service': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.service'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.service
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'help': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'version': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'check': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Command 'configure': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Command 'remove': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-01-06 07:29:37Z INFO ConfigurationManager] LoadSettings
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured()
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured: True
+[2024-01-06 07:29:37Z INFO ConfigurationManager] Is configured: True
+[2024-01-06 07:29:37Z INFO ConfigurationStore] Read setting file: 301 chars
+[2024-01-06 07:29:37Z INFO ConfigurationManager] Settings Loaded
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsServiceConfigured: True
+[2024-01-06 07:29:37Z INFO CommandSettings] Command 'run': 'True'
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured()
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured: True
+[2024-01-06 07:29:37Z INFO ConfigurationManager] Is configured: True
+[2024-01-06 07:29:37Z INFO Runner] Set runner startup type - Service
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'once': 'False'
+[2024-01-06 07:29:37Z INFO CommandSettings] Flag 'once': 'False'
+[2024-01-06 07:29:37Z INFO Runner] RunAsync
+[2024-01-06 07:29:37Z INFO ConfigurationManager] LoadSettings
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured()
+[2024-01-06 07:29:37Z INFO ConfigurationStore] IsConfigured: True
+[2024-01-06 07:29:37Z INFO ConfigurationManager] Is configured: True
+[2024-01-06 07:29:37Z INFO ConfigurationManager] Settings Loaded
+[2024-01-06 07:29:37Z INFO MessageListener] {
+  "AgentId": 23,
+  "AgentName": "asb",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus5.actions.githubusercontent.com/g5w8GUK1E1fJ0Xhj6aL2f7IXdsmYeN1HI3eTNqtn4IVrjZaBdn/",
+  "GitHubUrl": "https://github.com/Abhijit1983/first-action",
+  "WorkFolder": "work"
+}
+[2024-01-06 07:29:37Z INFO MessageListener] Loading Credentials
+[2024-01-06 07:29:37Z INFO ConfigurationStore] HasCredentials()
+[2024-01-06 07:29:37Z INFO ConfigurationStore] stored True
+[2024-01-06 07:29:37Z INFO CredentialManager] GetCredentialProvider
+[2024-01-06 07:29:37Z INFO CredentialManager] Creating type OAuth
+[2024-01-06 07:29:37Z INFO CredentialManager] Creating credential type: OAuth
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:29:37Z INFO HostContext] Well known directory 'Root': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner'
+[2024-01-06 07:29:37Z INFO HostContext] Well known config file 'RSACredentials': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams'
+[2024-01-06 07:29:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:29:37Z INFO MessageListener] Attempt to create session.
+[2024-01-06 07:29:37Z INFO MessageListener] Connecting to the Runner Server...
+[2024-01-06 07:29:37Z INFO RunnerServer] EstablishVssConnection
+[2024-01-06 07:29:37Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-01-06 07:29:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-01-06 07:29:37Z INFO RunnerServer] EstablishVssConnection
+[2024-01-06 07:29:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-01-06 07:29:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-01-06 07:29:37Z INFO RunnerServer] EstablishVssConnection
+[2024-01-06 07:29:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-01-06 07:29:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-01-06 07:29:38Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-01-06 07:29:38Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-01-06 07:29:38Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-01-06 07:29:39Z INFO MessageListener] VssConnection created
+[2024-01-06 07:29:39Z INFO Terminal] WRITE LINE: 
+[2024-01-06 07:29:39Z INFO Terminal] WRITE LINE: 
+[2024-01-06 07:29:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:29:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:29:39Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-01-06 07:29:39Z INFO MessageListener] Session created.
+[2024-01-06 07:29:39Z INFO Terminal] WRITE LINE: Current runner version: '2.311.0'
+[2024-01-06 07:29:39Z INFO Terminal] WRITE LINE: 2024-01-06 07:29:39Z: Listening for Jobs
+[2024-01-06 07:29:39Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-01-06 07:35:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\.credentials_rsaparams
+[2024-01-06 07:35:06Z INFO MessageListener] Message '1' received from session '4e0eb067-d474-4415-ab83-afbb05bda38f'.
+[2024-01-06 07:35:06Z INFO Runner] Received job message of length 23422 from service, with hash 'fd6b682279a5a359a137cf3380ff139292a53542302e735e07f26808842c1a5c'
+[2024-01-06 07:35:06Z INFO JobDispatcher] Job request 19 for plan ad935fea-a3ac-4723-b1c2-5f9e2d2c33d8 job dfe0d027-4c40-526d-c9a9-c098ad733918 received.
+[2024-01-06 07:35:06Z INFO JobDispatcher] Pull OrchestrationId ad935fea-a3ac-4723-b1c2-5f9e2d2c33d8.execute_powershell.__default from JWT claims
+[2024-01-06 07:35:06Z INFO Terminal] WRITE LINE: 2024-01-06 07:35:06Z: Running job: execute_powershell
+[2024-01-06 07:35:06Z INFO JobDispatcher] Start renew job request 19 for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:35:07Z INFO JobDispatcher] Successfully renew job request 19, job is valid till 06-01-2024 07:45:07
+[2024-01-06 07:35:07Z INFO HostContext] Well known directory 'Bin': 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper] Starting process:
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   File name: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin\Runner.Worker.exe'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2348 2360'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Data\Abhijit\Script\GitHubActions\first-action\actions-runner\bin'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-01-06 07:35:07Z INFO ProcessInvokerWrapper] Process started with process id 20232, waiting for process exit.
+[2024-01-06 07:35:07Z INFO JobDispatcher] Send job request message to worker for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:35:07Z INFO ProcessChannel] Sending message of length 23422, with hash 'fd6b682279a5a359a137cf3380ff139292a53542302e735e07f26808842c1a5c'
+[2024-01-06 07:35:07Z INFO JobNotification] Entering JobStarted Notification
+[2024-01-06 07:35:07Z INFO JobNotification] Entering StartMonitor
+[2024-01-06 07:35:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:35:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-01-06 07:35:55Z INFO ProcessInvokerWrapper] Finished process 20232 with exit code 102, and elapsed time 00:00:48.5109120.
+[2024-01-06 07:35:55Z INFO JobDispatcher] Worker finished for job dfe0d027-4c40-526d-c9a9-c098ad733918. Code: 102
+[2024-01-06 07:35:55Z INFO JobDispatcher] finish job request for job dfe0d027-4c40-526d-c9a9-c098ad733918 with result: Failed
+[2024-01-06 07:35:55Z INFO Terminal] WRITE LINE: 2024-01-06 07:35:55Z: Job execute_powershell completed with result: Failed
+[2024-01-06 07:35:55Z INFO JobDispatcher] Stop renew job request for job dfe0d027-4c40-526d-c9a9-c098ad733918.
+[2024-01-06 07:35:55Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 19.
+[2024-01-06 07:35:55Z INFO JobNotification] Entering JobCompleted Notification
+[2024-01-06 07:35:55Z INFO JobNotification] Entering EndMonitor
