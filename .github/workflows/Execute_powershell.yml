@@ -27,4 +27,4 @@ jobs:
         $scriptPath = ".\hello.ps1"
         
         # Execute the PowerShell script
-        & $scriptPath
+        #& $scriptPath
