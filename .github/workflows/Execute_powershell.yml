@@ -25,6 +25,6 @@ jobs:
         write-host $scriptDir
         # Path to your PowerShell script in the repository
         $scriptPath = ".\hello.ps1"
-        & powershell.exe
+    
         # Execute the PowerShell script
-        #& $scriptPath
+        & $scriptPath
