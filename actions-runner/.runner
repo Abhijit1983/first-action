@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 23,
-  "agentName": "asb",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus5.actions.githubusercontent.com/g5w8GUK1E1fJ0Xhj6aL2f7IXdsmYeN1HI3eTNqtn4IVrjZaBdn/",
-  "gitHubUrl": "https://github.com/Abhijit1983/first-action",
-  "workFolder": "work"
-}
